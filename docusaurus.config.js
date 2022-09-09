@@ -26,7 +26,12 @@ const config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
-
+  themes: [
+    [require.resolve("@easyops-cn/docusaurus-search-local"),
+    {
+      hashed: true
+    }],
+  ],
   presets: [
     [
       'classic',
